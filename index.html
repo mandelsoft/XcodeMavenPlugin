@@ -12,6 +12,12 @@
 			h1 {
 				text-shadow: 3px 3px 5px #959595;
 			}
+            
+            a:link {color: #0000ff;}
+            a:visited {color: #0000ff;}
+            a:active {color: #0000ff;}
+            a:hover {color: #0000ff;text-decoration: underline;}
+            a {text-decoration: none;}
 			
 			#maincontainer{
 				width: 840px; /*Width of main container*/
@@ -47,6 +53,8 @@
 				border-color: #a0a0a0;
 				box-shadow: 1px 1px 5px #818181;
 			}
+            
+            input { border-radius: 4px; box-shadow: 1px 1px 3px #d0d0d0;}
 		</style>
 <script type="text/javascript">
 
@@ -72,8 +80,17 @@
 
 <p>The Maven plug-in allows to build iOS XCode projects with Maven and supports important features like (iOS library) dependency management.</p>
 
-<p>More information will be published on this page soon...<br>
-Please <a href="http://www.freelists.org/list/maven4ios" target="_blank">subscribe</a> to our mailinglist <a href="mailto:maven4ios@freelists.org">maven4ios@freelists.org</a> to stay up-to-date.</p>
+<p><b>More information will be published on this page soon...</b><br>
+Please enter your email address and subscribe to our mailinglist <a href="http://www.freelists.org/list/maven4ios">maven4ios@freelists.org</a> to stay up-to-date.</p>
+<form action="http://www.freelists.org/cgi-bin/subscription.cgi" method="post" target="_blank">
+ <input type=hidden name="list" value="maven4ios">
+ <input type=hidden name="url_or_message" value="">
+ <input name="action" type="hidden" value="subscribe">
+ <ul>
+   <input type="text" name="email">
+   <input type=submit value="subscribe">
+ </ul>
+</form>
 </div>
 
 <!--div class="saplogo">
